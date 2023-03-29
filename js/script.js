@@ -1,3 +1,9 @@
+// loader
+$(window).on("load",function(){
+    $(".loader").fadeOut("slow");
+});
+
+// main
 $(document).ready(function () {
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
